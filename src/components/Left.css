@@ -57,3 +57,34 @@ button:hover {
     color: hsl(236, 13%, 42%);
     line-height: 25px;
 }
+
+@media screen and (max-width: 1023px) {
+    .content {
+        margin-right: 0px;
+        width: 100%;      
+    }
+
+    
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .text {
+        flex-direction: column;
+    }
+
+    .left-header {
+        font-size: 56px;
+        background-color: blue;
+    }
+
+    br {
+        display: none;
+    }
+
+    
+
+
+}
+

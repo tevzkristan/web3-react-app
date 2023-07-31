@@ -3,6 +3,7 @@ import "./Main.css"
 import Navbar from '../components/Navbar'
 import Left from '../components/Left'
 import Right from '../components/Right'
+import Products from '../components/Products'
 
 function Main() {
   return (
@@ -13,6 +14,8 @@ function Main() {
           <Left/>
           <Right/>
         </div>
+        <Products/>
+        <h1 className='footer-text'>This website was developed by Tevž</h1>
       </div>
     </section>
   )

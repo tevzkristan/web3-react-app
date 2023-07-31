@@ -17,6 +17,9 @@ body {
 
 nav {
     width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 ul {
@@ -24,6 +27,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     list-style: none;
+    width: 100%;
 }
 
 a {
@@ -36,4 +40,25 @@ a {
 
 a:hover {
     color: hsl(5, 85%, 63%);
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1474px) {
+
+    nav {
+        width: 60%;
+    }
+
+
 }
