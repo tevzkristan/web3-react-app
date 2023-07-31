@@ -76,11 +76,14 @@ button:hover {
 
     .left-header {
         font-size: 56px;
-        background-color: blue;
     }
 
     br {
         display: none;
+    }
+    
+    button {
+        width: 200px;
     }
 
     
