@@ -43,3 +43,15 @@
     line-height: 24px;
     
 }
+
+@media screen and (max-width: 1023px) {
+    .products {
+        flex-direction: column;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+
+}
